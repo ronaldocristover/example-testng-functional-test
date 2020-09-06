@@ -1,0 +1,10 @@
+name: Suite
+threadCount: 1
+parallel: methods
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parallel: methods
+  classes:
+    - com.fullstack.batch3.AppTest
+

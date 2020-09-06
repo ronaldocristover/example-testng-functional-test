@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.fullstack.batch3.AppTest">
+        <methods>
+          <include name="runPreconditions"/>
+          <include name="loginWithCorrectCredentials"/>
+          <include name="runPostConditions"/>
+        </methods>
+      </class> <!-- com.fullstack.batch3.AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
